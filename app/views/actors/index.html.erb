@@ -19,7 +19,7 @@
       <tr>
         <td><%= actor.name %></td>
         <td><%= actor.dob %></td>
-        <td><%= actor.image %></td>
+        <td><img src='<%= actor.image %>' class='img-responsive'></td>
         <td>
           <a href="/actors/<%= actor.id %>" class="btn btn-primary">Show</a>
           <a href="/actors/<%= actor.id %>/edit" class="btn btn-warning">Edit</a>
